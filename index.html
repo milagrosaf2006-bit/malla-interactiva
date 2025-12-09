@@ -11,7 +11,268 @@
 <p>Toca un curso para marcarlo como aprobado. Los cursos desbloqueados se iluminarán.</p>
 
 <div id="semesters-container">
-    <!-- Aquí voy a insertar tus 12 ciclos en las siguientes respuestas -->
+    <div class="semester">
+    <h2>I Ciclo</h2>
+
+    <div class="course" data-id="comunicacion1" data-prereq="">
+        Comunicación I (3 cr.)
+    </div>
+
+    <div class="course" data-id="filosofia1" data-prereq="">
+        Introducción a la Filosofía (3 cr.)
+    </div>
+
+    <div class="course" data-id="vida-universitaria" data-prereq="">
+        Introducción a la Vida Universitaria (3 cr.)
+    </div>
+
+    <div class="course" data-id="intro-derecho" data-prereq="">
+        Introducción al Estudio del Derecho (4 cr.)
+    </div>
+
+    <div class="course" data-id="metodologia-estudio" data-prereq="">
+        Metodología del Estudio (3 cr.)
+    </div>
+
+    <div class="course" data-id="liderazgo" data-prereq="">
+        Taller de Liderazgo (2 cr.)
+    </div>
+
+    <div class="course" data-id="teatro" data-prereq="">
+        Teatro (3 cr.)
+    </div>
+</div>
+<div class="semester">
+    <h2>II Ciclo</h2>
+
+    <div class="course" data-id="antropologia" data-prereq="filosofia1">
+        Antropología Filosófica y Teológica (3 cr.)
+    </div>
+
+    <div class="course" data-id="comunicacion2" data-prereq="comunicacion1">
+        Comunicación II (3 cr.)
+    </div>
+
+    <div class="course" data-id="historia-occidental1" data-prereq="filosofia1">
+        Historia de la Cultura Occidental I (3 cr.)
+    </div>
+
+    <div class="course" data-id="historia-derecho" data-prereq="metodologia-estudio,intro-derecho">
+        Historia General del Derecho (3 cr.)
+    </div>
+
+    <div class="course" data-id="retorica" data-prereq="intro-derecho,teatro,comunicacion1">
+        Retórica y Dialéctica (3 cr.)
+    </div>
+
+    <div class="course" data-id="teoria-derecho" data-prereq="metodologia-estudio,liderazgo,intro-derecho">
+        Teoría del Derecho (4 cr.)
+    </div>
+
+    <div class="course" data-id="apreciacion-artistica" data-prereq="">
+        Apreciación Artística (2 cr.) [EH]
+    </div>
+
+    <div class="course" data-id="apreciacion-literaria" data-prereq="">
+        Apreciación Literaria (2 cr.) [EH]
+    </div>
+</div>
+<div class="semester">
+    <h2>III Ciclo</h2>
+
+    <div class="course" data-id="bases-romanistas" data-prereq="historia-derecho">
+        Bases Romanistas del Derecho Contemporáneo (3 cr.)
+    </div>
+
+    <div class="course" data-id="ciencia-politica" data-prereq="filosofia1,teoria-derecho">
+        Ciencia Política (4 cr.)
+    </div>
+
+    <div class="course" data-id="derecho-natural" data-prereq="antropologia,comunicacion2,teoria-derecho,retorica">
+        Derecho Natural (4 cr.)
+    </div>
+
+    <div class="course" data-id="historia-occidental2" data-prereq="historia-occidental1">
+        Historia de la Cultura Occidental II (3 cr.)
+    </div>
+
+    <div class="course" data-id="logica" data-prereq="antropologia">
+        Lógica y Gnoseología (3 cr.)
+    </div>
+
+    <div class="course" data-id="matematica-abogados" data-prereq="teoria-derecho">
+        Matemática para Abogados (3 cr.)
+    </div>
+
+    <div class="course" data-id="apreciacion-musical" data-prereq="">
+        Apreciación Musical (2 cr.) [EH]
+    </div>
+
+    <div class="course" data-id="sociologia-derecho" data-prereq="teoria-derecho">
+        Sociología y Derecho (2 cr.) [EH]
+    </div>
+</div>
+<div class="semester">
+    <h2>IV Ciclo</h2>
+
+    <div class="course" data-id="constitucional1" data-prereq="derecho-natural,ciencia-politica">
+        Derecho Constitucional I (4 cr.)
+    </div>
+
+    <div class="course" data-id="personas" data-prereq="derecho-natural,bases-romanistas">
+        Derecho de Personas (3 cr.)
+    </div>
+
+    <div class="course" data-id="penal-general" data-prereq="derecho-natural">
+        Derecho Penal General (4 cr.)
+    </div>
+
+    <div class="course" data-id="derecho-economia" data-prereq="matematica-abogados">
+        Derecho y Economía (2 cr.)
+    </div>
+
+    <div class="course" data-id="psicologia" data-prereq="antropologia">
+        Psicología (3 cr.)
+    </div>
+
+    <div class="course" data-id="sistema-justicia" data-prereq="teoria-derecho">
+        Sistema de Justicia y Mecanismos de Solución de Conflictos (3 cr.)
+    </div>
+
+    <div class="course" data-id="teologia1" data-prereq="antropologia">
+        Teología I (3 cr.)
+    </div>
+</div>
+<div class="semester">
+    <h2>V Ciclo</h2>
+
+    <div class="course" data-id="acto-juridico" data-prereq="personas">
+        Acto Jurídico (4 cr.)
+    </div>
+
+    <div class="course" data-id="administrativo1" data-prereq="constitucional1">
+        Derecho Administrativo I (3 cr.)
+    </div>
+
+    <div class="course" data-id="constitucional2" data-prereq="sistema-justicia,constitucional1">
+        Derecho Constitucional II (3 cr.)
+    </div>
+
+    <div class="course" data-id="penal-especial" data-prereq="penal-general">
+        Derecho Penal Especial (3 cr.)
+    </div>
+
+    <div class="course" data-id="procesal-general" data-prereq="sistema-justicia">
+        Derecho Procesal General (3 cr.)
+    </div>
+
+    <div class="course" data-id="metodologia-investigacion-juridica" data-prereq="logica,penal-general,personas,constitucional1">
+        Metodología de la Investigación Jurídica (3 cr.)
+    </div>
+
+    <div class="course" data-id="moral" data-prereq="teologia1,logica">
+        Moral (3 cr.)
+    </div>
+</div>
+<div class="semester">
+    <h2>VI Ciclo</h2>
+
+    <div class="course" data-id="argumentacion" data-prereq="metodologia-investigacion-juridica,procesal-general,constitucional2">
+        Argumentación Jurídica (3 cr.)
+    </div>
+
+    <div class="course" data-id="administrativo2" data-prereq="administrativo1">
+        Derecho Administrativo II (3 cr.)
+    </div>
+
+    <div class="course" data-id="internacional-publico" data-prereq="constitucional2">
+        Derecho Internacional Público (2 cr.)
+    </div>
+
+    <div class="course" data-id="procesal-civil1" data-prereq="procesal-general">
+        Derecho Procesal Civil I (4 cr.)
+    </div>
+
+    <div class="course" data-id="derechos-reales" data-prereq="derecho-economia,acto-juridico">
+        Derechos Reales (4 cr.)
+    </div>
+
+    <div class="course" data-id="suficiencia" data-prereq="metodologia-investigacion-juridica">
+        Suficiencia de Mitad de Carrera (1 cr.)
+    </div>
+
+    <div class="course" data-id="teologia2" data-prereq="teologia1">
+        Teología II (3 cr.)
+    </div>
+
+    <!-- EE3 no tiene cursos aquí -->
+</div>
+<div class="semester">
+    <h2>VII Ciclo</h2>
+
+    <div class="course" data-id="contabilidad" data-prereq="">
+        Contabilidad y Análisis Financiero (2 cr.)
+    </div>
+
+    <div class="course" data-id="obligaciones" data-prereq="derechos-reales">
+        Derecho de Obligaciones (4 cr.)
+    </div>
+
+    <div class="course" data-id="procesal-civil2" data-prereq="derechos-reales,procesal-civil1,argumentacion">
+        Derecho Procesal Civil II (3 cr.)
+    </div>
+
+    <div class="course" data-id="procesal-constitucional" data-prereq="argumentacion">
+        Derecho Procesal Constitucional (4 cr.)
+    </div>
+
+    <div class="course" data-id="tributario1" data-prereq="administrativo2">
+        Derecho Tributario I: PP.GG. y CT (3 cr.)
+    </div>
+
+    <div class="course" data-id="historia-peru1" data-prereq="historia-occidental2">
+        Historia del Perú I (3 cr.)
+    </div>
+
+    <!-- EE3: Derecho de la Propiedad Intelectual -->
+    <div class="course" data-id="propiedad-intelectual" data-prereq="derechos-reales,administrativo2">
+        Derecho de la Propiedad Intelectual (2 cr.) [EE3]
+    </div>
+
+</div>
+<div class="semester">
+    <h2>VIII Ciclo</h2>
+
+    <div class="course" data-id="contratos1" data-prereq="obligaciones">
+        Derecho de Contratos I: Teoría General (3 cr.)
+    </div>
+
+    <div class="course" data-id="laboral1" data-prereq="internacional-publico,obligaciones">
+        Derecho Laboral I: PP.GG. y DL Individual (3 cr.)
+    </div>
+
+    <div class="course" data-id="mercantil1" data-prereq="obligaciones">
+        Derecho Mercantil I: Parte General y Títulos Valores (3 cr.)
+    </div>
+
+    <div class="course" data-id="procesal-penal" data-prereq="argumentacion,penal-especial">
+        Derecho Procesal Penal (4 cr.)
+    </div>
+
+    <div class="course" data-id="tributario2" data-prereq="tributario1,contabilidad">
+        Derecho Tributario II: Impuesto a la Renta (3 cr.)
+    </div>
+
+    <div class="course" data-id="historia-peru2" data-prereq="historia-peru1">
+        Historia del Perú II (3 cr.)
+    </div>
+
+    <!-- EE3: Derecho y Biotecnología -->
+    <div class="course" data-id="biotecnologia" data-prereq="internacional-publico,procesal-constitucional">
+        Derecho y Biotecnología (2 cr.) [EE3]
+    </div>
+</div>
+
 </div>
 
 <script src="script.js"></script>
